@@ -4,31 +4,32 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BeautyZone</title>
+    <link rel="stylesheet" href="./css/styles.css">
   </head>
   <body>
     <header>
       <nav>
-        <a href="#">
+        <a href="/">
           <img src="./images/logo.svg" alt="Логотип Косметологічної клініки" />
         </a>
         <ul>
-          <li><a href="#">Про нас</a></li>
-          <li><a href="#">Чому ми</a></li>
-          <li><a href="#">Наші процедури</a></li>
-          <li><a href="#">Контакти</a></li>
+          <li ><a class="link" href="#about-section">Про нас</a></li>
+          <li ><a class="link" href="#why-as-section">Чому ми</a></li>
+          <li ><a class="link" href="#procedurs-section">Наші процедури</a></li>
+          <li ><a class="link" href="#contakts-section">Контакти</a></li>
         </ul>
       </nav>
     </header>
     <main>
       <section>
         <p>Косметологічна клініка</p>
-        <h1 lang="en">beauty zone</h1>
-        <button type="button">Замовити дзвінок</button>
+        <h1 class="hero-title" lang="en">Beauty Zone</h1>
+        <button class="button" type="button">Замовити дзвінок</button>
         <p>Запишись та отримай безкоштовну консультацію нашого косметолога</p>
       </section>
       <!-- second section -->
-      <section>
-        <h2>Перевтілюйтесь в<span lang="en">beauty zone!</span></h2>
+      <section id="about-section">
+        <h2 class="section-title">Перевтілюйтесь в <span class="accent"   lang="en">Beauty Zone!</span></h2>
         <p>
           Наша косметологічна клініка пропонує вам професійні послуги з догляду
           за шкірою обличчя та тіла.
@@ -41,51 +42,64 @@
         </p>
       </section>
       <!-- therth section -->
-      <section>
-        <h2>Чому люди <span>обирають нас</span></h2>
+      <section id="why-as-section">
+        <h2 class="section-title">Чому люди <span class="accent">обирають нас</span></h2>
         <ul>
           <li>
-            <span>
-              <!-- icon -->
+            <article>
+              <img
+                src="./images/game-icons_materials-science.svg"
+                alt="іконка як ядро атома"
+              />
               <p>
                 Всі наші косметологи мають вищу медичну освіту та стаж роботи
                 від 5 років
               </p>
-            </span>
+            </article>
           </li>
           <li>
-            <span>
-              <!-- icon -->
+            <article>
+              <img src="./images/me.svg" alt="іконка три доміка" />
               <p>
                 Використовуємо тільки професійне обладнання та косметику,
                 перевірену часом
               </p>
-            </span>
+            </article>
           </li>
           <li>
-            <span>
-              <!-- icon -->
+            <article>
+              <img src="./images/ph_crown-light.svg" alt="іконка як корона" />
               <p>
                 Наша мета - підкреслити переваги та приховати недоліки, а не
                 переробити
               </p>
-            </span>
+            </article>
           </li>
         </ul>
       </section>
-      <section>
-        <h2>Наші процедури</h2>
+      <!-- fourth section -->
+      <section id="procedurs-section">
+        <h2 class="section-title">Наші <span class="accent">процедури</span> </h2>
         <article><h3>Walrus</h3></article>
         <article><h3>Horseshoe</h3></article>
         <article><h3>Handlebar</h3></article>
       </section>
-      <section>
-        <h2>Приєднуйся до мережі пекарень</h2>
+      <section id="contakts-section">
+        <h2 class="section-title">Як нас <span class="accent">знайти</span></h2>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10163.730385400155!2d30.50787558041779!3d50.44235614544785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cef8b5f6338d%3A0x25c7f06ad686451c!2z0LHRg9C7LiDQotCw0YDQsNGB0LAg0KjQtdCy0YfQtdC90LrQviwgNSwg0JrQuNC10LIsIDAyMDAw!5e0!3m2!1sru!2sua!4v1700025356538!5m2!1sru!2sua"
+          width="605"
+          height="481"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
       </section>
     </main>
     <footer>
       <nav>
-        <a href="#">
+        <a href="/">
           <img src="./images/logo.svg" alt="Логотип Косметологічної клініки" />
         </a>
         <ul>
@@ -120,7 +134,7 @@
           </li>
         </ul>
         <a href="#" target="_blank">Політика конфіденційності</a>
-        <p>© 2022 Дані захищені</p>
+        <p>&copy; 2022 Дані захищені</p>
       </address>
     </footer>
   </body>
