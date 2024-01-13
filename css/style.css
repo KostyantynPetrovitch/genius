@@ -1,0 +1,45 @@
+/* -----------CSSzminny */
+:root{
+--color-brend: #2B7FFF;
+--color-primery-dark: var(--color-primery-dark);
+--color-primery-light: #FFFFFF;
+}
+/* ------------Base----------------- */
+ul {
+  list-style-type: none;
+}
+.main-title {
+  border: 4px solid purple;
+}
+/* -------------- Link-------------- */
+.link {
+  color: var(--color-primery-dark);
+;
+}
+.link:hover {
+  color: var(--color-brend);
+}
+/* ----------Title------------------- */
+
+.hero-title{
+  color: var(--color-brend);
+}
+
+.section-title {
+  color: var(--color-primery-dark);
+}
+.section-title .accent {
+  color: var(--color-brend);
+}
+/* -----------------Button------------- */
+.button{
+  color: var(--color-primery-light);
+  border-radius: 32px;
+background-color: var(--color-brend);
+cursor: pointer;
+}
+.button:hover{
+  border: 2px solid var(--color-brend);
+  color: var(--color-brend);
+  background-color: transparent;
+}
